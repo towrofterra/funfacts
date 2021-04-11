@@ -9,5 +9,5 @@ F6::
 Run, C:\Users\Jake\Desktop\funfacts\hidden.vbs
 Send, y
 Send, ^v
-Send, Enter
+Send, {Enter}
 return
