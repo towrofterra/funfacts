@@ -6,7 +6,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 #InstallKeybdHook
 
 F6::
-Run, C:\Users\Jake\Desktop\funfacts\hidden.vbs
+Run, hidden.vbs
 BlockInput On
 Send, y
 Send, %clipboard%
