@@ -7,7 +7,9 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 F6::
 Run, C:\Users\Jake\Desktop\funfacts\hidden.vbs
+BlockInput On
 Send, y
-Send, ^v
+Send, %clipboard%
 Send, {Enter}
+BlockInput Off
 return
