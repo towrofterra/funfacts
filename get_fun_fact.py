@@ -13,3 +13,4 @@ df_facts = pd.read_csv('funfacts.csv')
 random_index = math.floor(random.uniform(0, len(df_facts)))
 random_fact = df_facts['fact'][random_index]
 add_to_clipboard(random_fact)
+print(random_index, random_fact)
